@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>JobHunt</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#aboutus">About Us</a>
+      <a href="#alljobs">All Jobs</a>
+      <a href="#contactus">Contact Us</a>
+      <a href="#account">Account</a>
+      <a href="#postjobs" class="button">Post Jobs</a>
+    </nav>
+  </header>
+
+  <div class="jobs-list-container">
+    <h2>5 Jobs</h2>
+
+    <div class="job-filter-box">
+      <div class="job-filter">
+        <h1>job-filter</h1>
+        <input class="job-filter" type="text" placeholder="Job Title" />
+        <input class="job-filter" type="text" placeholder="Location" />
+      </div>
+      <div class="job-filter">
+        <input class="job-filter" type="date" placeholder="Date Posted" />
+        <input class="job-filter" type="number" placeholder="Estimated Salary" />
+        <select class="job-filter">
+          <option value="">Job Type</option>
+          <option value="full-time">Full-Time</option>
+          <option value="part-time">Part-Time</option>
+        </select>
+      </div>
+      <div class="job-filter-box">
+        <select class="job-filter">
+          <option value="">Educational Level</option>
+          <option value="high-school">High School</option>
+          <option value="bachelor">Bachelor's Degree</option>
+          <option value="master">Master's Degree</option>
+        </select>
+        <select class="job-filter-box">
+          <option value="">Work Shift</option>
+          <option value="morning">Morning</option>
+          <option value="evening">Evening</option>
+          <option value="night">Night</option>
+        </select>
+        <input class="job-search" type="text" placeholder="Search here..." />
+      
+      </div>
+    </div>
+
+    <div class="jobs"></div>
+  </div>
+  <footer>
+    <p>&copy; 2024 JobHunt. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
